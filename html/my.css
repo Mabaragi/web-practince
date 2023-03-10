@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+.redbanner{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: red;
+  color: white;
+  height: 60px;
+  padding: 10px 50px;
+}
+h1{
+  font-weight: 600px;
+  font-size: 35px;
+}
+.divider{
+  border: 1px solid grey;
+}
+.login-wrap{
+  border: 2px solid grey;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.sign-in{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+.signin-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+.input-label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.password-find{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.password-find a {
+  text-decoration: none;
+  color: blue;
+}
+.sign-in-input{
+  height: 30px;
+  border: 1px solid grey;
+  border: radius 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sign-in-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px; 
+  border-radius: 5px;
+}
